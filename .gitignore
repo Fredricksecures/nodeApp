@@ -1,0 +1,5 @@
+#store files you do not want to upload
+
+*.env
+*.txt
+*.png
