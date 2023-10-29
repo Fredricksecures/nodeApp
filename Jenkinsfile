@@ -9,8 +9,8 @@ pipeline {
 		stage ('CloneFromGithub') { 
 			steps{
 			    script{
-			        git 'https://github.com/Fredricksecures/nodeApp.git'
-				    sh 'ls'
+			        git branch: 'main', url: 'https://github.com/Fredricksecures/nodeApp.git'
+				sh 'ls'
 			    }
 			}
 		}
